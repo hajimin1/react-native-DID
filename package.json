@@ -9,13 +9,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@credo-ts/core": "^0.5.3",
+    "@credo-ts/react-native": "^0.5.3",
+    "@types/react": "^18.3.3",
     "expo": "~51.0.26",
+    "expo-barcode-scanner": "~13.0.1",
+    "expo-camera": "~15.0.14",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.5"
+    "react-native": "0.74.5",
+    "react-native-fs": "^2.20.0",
+    "react-native-get-random-values": "^1.11.0",
+    "typescript": "^5.5.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@tsconfig/react-native": "^3.0.5",
+    "@types/jest": "^29.5.12",
+    "@types/react-test-renderer": "^18.3.0",
+    "react-native-svg-transformer": "^1.5.0"
   },
   "private": true
 }
